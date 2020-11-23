@@ -82,5 +82,5 @@ def enterData(field,data):
 if __name__ == "__main__":
     driver = webdriver.Chrome("C:/Users/chris/Downloads/chromedriver_win32/chromedriver.exe")
     driver.get('https://www.bestbuy.com/site/sony-playstation-5-dualsense-wireless-controller/6430163.p?skuId=6430163')
-    time.sleep(3)
+    time.sleep(1)
     order()
